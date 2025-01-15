@@ -32,12 +32,12 @@ This project is a robust, AI-powered API for customer analytics and engagement. 
 1. Clone the repository:
 
 
-git clone https://github.com/your-repo/customer-insight-api.git
+git clone https://github.com/FlameGreat-1/Customer-Insight-API.git
 
 2. Navigate to the project directory:
 
 
-cd customer-insight-api
+cd Customer-Insight-API
 
 3. Create a `.env` file based on the `.env.example` and fill in your configuration.
 
