@@ -1,0 +1,4 @@
+Generic single-database configuration with an async dialect.
+
+For more information on Alembic, please see:
+https://alembic.sqlalchemy.org/en/latest/
