@@ -1,0 +1,116 @@
+customer_insight_api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   └── logging.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── v1/
+│   │   │   ├── __init__.py
+│   │   │   ├── endpoints/
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── sentiment_analysis.py
+│   │   │   │   ├── customer_segmentation.py
+│   │   │   │   ├── recommendation_engine.py
+│   │   │   │   ├── conversational_ai.py
+│   │   │   │   ├── predictive_analytics.py
+│   │   │   │   ├── emotion_recognition.py
+│   │   │   │   ├── customer_journey.py
+│   │   │   │   └── privacy_compliance.py
+│   │   │   └── router.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── customer.py
+│   │   ├── interaction.py
+│   │   ├── product.py
+│   │   └── feedback.py
+│   │
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── customer.py
+│   │   ├── interaction.py
+│   │   ├── product.py
+│   │   └── feedback.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── sentiment_analysis.py
+│   │   ├── customer_segmentation.py
+│   │   ├── recommendation_engine.py
+│   │   ├── conversational_ai.py
+│   │   ├── predictive_analytics.py
+│   │   ├── emotion_recognition.py
+│   │   └── customer_journey.py
+│   │
+│   ├── ml_models/
+│   │   ├── __init__.py
+│   │   ├── sentiment_model.py
+│   │   ├── segmentation_model.py
+│   │   ├── recommendation_model.py
+│   │   ├── nlp_model.py
+│   │   └── emotion_detection_model.py
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── data_preprocessing.py
+│   │   ├── feature_engineering.py
+│   │   └── model_helpers.py
+│   │
+│   └── db/
+│       ├── __init__.py
+│       ├── database.py
+│       └── crud/
+│           ├── __init__.py
+│           ├── customer.py
+│           ├── interaction.py
+│           ├── product.py
+│           └── feedback.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_api/
+│   │   ├── __init__.py
+│   │   ├── test_sentiment_analysis.py
+│   │   ├── test_customer_segmentation.py
+│   │   ├── test_recommendation_engine.py
+│   │   └── ...
+│   │
+│   └── test_services/
+│       ├── __init__.py
+│       ├── test_sentiment_analysis.py
+│       ├── test_customer_segmentation.py
+│       ├── test_recommendation_engine.py
+│       └── ...
+│
+├── alembic/
+│   ├── env.py
+│   ├── README
+│   ├── script.py.mako
+│   └── versions/
+│
+├── docs/
+│   ├── api/
+│   ├── architecture/
+│   ├── deployment/
+│   └── user_guide/
+│
+├── scripts/
+│   ├── start.sh
+│   ├── test.sh
+│   └── deploy.sh
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── setup.py
